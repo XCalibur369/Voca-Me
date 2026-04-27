@@ -1,0 +1,58 @@
+Hey! Here is a definitive list of all the images, audio, and music files the game is currently trying to load.
+
+Drop these files directly into the `static/images/` and `static/audio/` folders in this project directory. If the game doesn't find them, it will just silently ignore them or use a fallback circle, so don't worry about it crashing if you don't have them yet!
+
+------------------------------------------
+🖼️ IMAGES (`static/images/`)
+------------------------------------------
+The game supports both .jpg and .png formats!
+
+1. PLAYER PROFILES (For the Intake Form):
+   - `profile1.jpg`
+   - `profile2.jpg`
+   - `profile3.jpg`
+   - `profile4.jpg`
+   - `profile5.jpg`
+
+2. NPC AVATARS:
+   (The game automatically looks for the character's exact name in lowercase)
+   - `interviewer.jpg` (or `tortoise.jpg` depending on what you name them in the script!)
+   - `jesse.jpg`
+   - `walt.jpg`
+
+3. BACKGROUNDS:
+   - `desert_bg.jpg` (Used to set the vibe for the Breaking Bad chapter)
+
+------------------------------------------
+🔊 SOUND EFFECTS (`static/audio/`)
+------------------------------------------
+These play at specific moments to enhance the immersion!
+
+- `fall_wind.mp3` (Plays when the player falls into Chapter 2)
+- `splat.mp3` (Plays when they hit the asphalt)
+- `desert_wind.mp3` (Ambient wind when they approach the RV)
+- `rv_door.mp3` (Plays when Walt enters the RV)
+- `glass_shatter.mp3` (Plays during the chemistry explosion AND when shooting asteroids in Space Blasters!)
+- `success_chime.mp3` (Plays when they solve the chemistry equation correctly)
+
+------------------------------------------
+🎵 BACKGROUND MUSIC
+------------------------------------------
+Right now, the `bgAudio` hook is set up in `script.js` but isn't tied to any files yet. If you want a looping track, let me know the filename (e.g. `breaking_bad_theme.mp3`) and I will trigger it to play as soon as Chapter 2 starts!
+
+------------------------------------------
+🕰️ CHAPTER 3 ADDITIONS
+------------------------------------------
+🖼️ IMAGES:
+   - `wonderland_bg.jpg` (Hallway and Courtroom vibe)
+   - `queen of hearts.jpg` (Wait, we need to match the name. The name is "Queen of Hearts", so `queen of hearts.jpg` or `queen_of_hearts.jpg` depending on spaces. The code lowercases it and looks for the exact name. Best to save it as `queen of hearts.jpg`.)
+   - `mad hatter.jpg`
+   - `alice.jpg`
+   - `chuck mcgill.jpg`
+   - `ford prefect.jpg`
+
+🔊 SOUND EFFECTS:
+   - `clock_tick.mp3` (When entering the Wonderland hallway)
+   - `guillotine_chop.mp3` (During the successful coup scene)
+   - `electricity_buzz.mp3` (When Chuck McGill rants about alternating current)
+   - `gavel_bang.mp3` (Plays when making choices during the 13 courtroom cases montage)
