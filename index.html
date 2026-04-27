@@ -9,20 +9,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <button id="undo-btn" onclick="undoScene()" style="display:none;">🔙 Rewind</button>
-    <div id="dev-menu" style="position: fixed; top: 10px; right: 10px; z-index: 1000; background: rgba(0,0,0,0.8); padding: 10px; border-radius: 8px; border: 1px solid #fff;">
-        <span style="color: white; font-size: 12px; margin-bottom: 5px; display: block;">🛠️ Quick Skip</span>
-        <button onclick="playScene('start')" style="display:block; margin: 2px; font-size: 10px; padding: 5px;">Ch 1: Start</button>
-        <button onclick="playScene('chapter2_start')" style="display:block; margin: 2px; font-size: 10px; padding: 5px;">Ch 2: Breaking Bad</button>
-        <button onclick="playScene('chapter2_offer')" style="display:block; margin: 2px; font-size: 10px; padding: 5px;">Ch 2: Jesse's Offer</button>
-        <button onclick="playScene('chapter3_hallway')" style="display:block; margin: 2px; font-size: 10px; padding: 5px;">Ch 3: Wonderland</button>
-        <button onclick="playScene('chapter3b_drive')" style="display:block; margin: 2px; font-size: 10px; padding: 5px;">Ch 3B: Jury Duty</button>
-        <button onclick="playScene('chapter4b_start')" style="display:block; margin: 2px; font-size: 10px; padding: 5px;">Ch 4B: Dragons</button>
-        <button onclick="playScene('chapter4b_crown')" style="display:block; margin: 2px; font-size: 10px; padding: 5px;">Ch 4B: Crown Scene</button>
-        <button onclick="playScene('chapter4c_start')" style="display:block; margin: 2px; font-size: 10px; padding: 5px;">Ch 4C: Vogon Ship</button>
-        <button onclick="playScene('tap_discharge')" style="display:block; margin: 2px; font-size: 10px; padding: 5px;">Final: TAP Discharge</button>
-        <button onclick="showFinalCard()" style="display:block; margin: 2px; font-size: 10px; padding: 5px; background: gold; color: black;">🎂 Birthday Card</button>
-    </div>
     <div id="app">
         <main id="game-container">
             <div id="story-area" aria-live="polite">

@@ -2711,15 +2711,14 @@ function showFinalCard() {
     `;
     
     const lines = [
-        { text: `Dear ${playerName},`, style: 'margin-bottom: 25px; font-size: 22px; font-weight: 600;' },
-        { text: 'Happy 18th Birthday.', style: 'margin-bottom: 20px; font-weight: 600; font-size: 20px;' },
-        { text: "You've just crossed a threshold�one that marks not just the passage of time, but the beginning of a new chapter in your story.", style: 'margin-bottom: 18px;' },
-        { text: "Like the journeys you've taken tonight through worlds of dragons, courtrooms, and impossible choices, life ahead will ask you to navigate complexity, to make decisions without perfect information, to find your own path through the unknown.", style: 'margin-bottom: 18px;' },
-        { text: "I hope you know what a remarkable person you are. The way you think, the way you care, the way you approach the world�these are gifts. Hold onto them.", style: 'margin-bottom: 18px;' },
-        { text: "The years ahead won't always be easy, but they'll be yours. And I have no doubt you'll make them extraordinary.", style: 'margin-bottom: 18px;' },
-        { text: "I'm grateful to have known you, and I'm excited to see where your story goes from here.", style: 'margin-bottom: 30px;' },
+        { text: `Dear Pockie,`, style: 'margin-bottom: 25px; font-size: 22px; font-weight: 600;' },
+        { text: 'Happy 18th Birthday!!!', style: 'margin-bottom: 20px; font-weight: 600; font-size: 20px;' },
+        { text: "You’re now an adult!!! How does it feel? Birthdays from now only get harder, but I hope you have a blast this year!", style: 'margin-bottom: 18px;' },
+        { text: "I find myself looking back and I too am amazed by how fast the time has gone.", style: 'margin-bottom: 18px;' },
+        { text: "I hope you know how much of a wonderful person you are, and reflect on the journey you’ve taken to reach here.", style: 'margin-bottom: 18px;' },
+        { text: "I wish you all the very best today and in the many years to come!", style: 'margin-bottom: 18px;' },
         { text: 'Happy birthday.', style: 'margin-bottom: 15px;' },
-        { text: '� XCalibur / Abhinav', style: 'font-style: italic; color: #6b46c1; font-size: 19px;' }
+        { text: 'XCalibur/Abhinav', style: 'font-style: italic; color: #6b46c1; font-size: 19px;' }
     ];
     
     lines.forEach(line => {
