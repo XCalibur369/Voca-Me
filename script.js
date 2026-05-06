@@ -1765,7 +1765,7 @@ Object.assign(scenes, {
 
         const chuck = "Chuck McGill";
         await addMessage(chuck, "I'll defend her. Charles McGill, attorney at law. Your Majesty. Your Honour. What is the title here, and what exactly do I call you? Is this a garden, or is the floor a garden? Oh, I sincerely hope you do not have any electricity in these...");
-        await addMessage(queen, "APPROACH.");
+        await addMessage(queen, "I've believed as many as seven impossible things before breakfast, but never that a lawyer would be present in my court. Anywho, APPROACH.");
         await addMessage('Narrator', "Chuck approaches as the flamingo eyes him with the distinct wariness of one professional clocking another.");
         await addMessage('Narrator', "Chuck pulls out a notepad and clicks his pen, but the pen refuses to click. He tries again, and the pen, deciding it has been clicked four times, unclicks itself in protest. Chuck stares at it, the pen meets his eyes, and Chuck ultimately loses the staring contest.");
         await addMessage(chuck, "Your Majesty. I would like to note for the record that today's date is...");
